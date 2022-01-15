@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Movies</title>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container py-3 text-center">
+      <h1 class="text-primary">Movies Catalog</h1>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <section class="movies">
+      <div class="container">
+        <p class="text-white bg-info d-inline-block p-2 rounded">Search Results: <span class="movies__result">0</span></p>
+
+        <form>
+          <select class="select" name="films" id="film">
+            <option value="comdedy">Comedy</option>
+            <option value="action">Action</option>
+            <option value="drama">Drama</option>
+          </select>
+
+          <button>Search</button>
+        </form>
+
+        <ul class="movies__list">
+        </ul>
+      </div>
+    </section>
+  </main>
+  <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="./js/films.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
