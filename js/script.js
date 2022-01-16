@@ -1,6 +1,7 @@
 let elResult = document.querySelector('.movies__result');
 let elList = document.querySelector('.movies__list');
-let elFilmsSelect = document.querySelector(".select")
+let elFilmsSelect = document.querySelector(".select");
+let elForm = document.querySelector(".form");
 
 elResult.textContent = films.length
 
@@ -68,3 +69,23 @@ const renderFilms = function(filmsArray, element){
 
 renderFilms(films, elList)
 generateGenres(films)
+
+
+
+elForm.addEventListener('submit' , function(evt){
+  evt.preventDefault();
+
+elList.innerHTML = null
+
+  let selectValue = elFilmsSelect.value;
+
+  let filteredFilms = []
+
+  films.forEach(film =>{
+    if(film.genres.includes(selectValue)){
+      filteredFilms.push(film)
+    }
+  })
+
+  renderFilms(filteredFilms, elList)
+})
