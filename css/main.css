@@ -1,5 +1,11 @@
+body{
+  box-sizing: border-box;
+  background-color: black;
+  margin-top: 150px;
+}
+
 .movies__card {
-  width: 18rem;
+  width: 20rem;
 }
 
 .movies__list {
@@ -10,8 +16,44 @@
   padding: 0;
   list-style: none;
   margin: -15px;
+  margin-top: 110px;
 }
 
 .movies__item {
-  margin: 15px;
+  min-width: 333px !important;
+  margin-bottom: 15px;
+}
+
+input{
+  min-height: 50px;
+}
+
+select{
+  min-height: 50px;
+}
+
+button{
+  min-height: 50px;
+}
+
+.selectForm{
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+}
+
+.resultBox {
+  position: fixed;
+  z-index: 1;
+ background-color: black;
+}
+
+.site-header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: black;
+  padding-bottom: 150px;
 }

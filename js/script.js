@@ -3,6 +3,7 @@ let elList = document.querySelector('.movies__list');
 let elFilmsSelect = document.querySelector(".select");
 let elForm = document.querySelector(".form");
 
+
 elResult.textContent = films.length
 
 elFilmsSelect.innerHTML = null
