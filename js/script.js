@@ -1,11 +1,9 @@
-// let elResult = document.querySelector('.movies__result');
 let elList = document.querySelector('.movies__list');
 let elFilmsSelect = document.querySelector(".select");
 let elForm = document.querySelector(".form");
 let elBookmarkList = document.querySelector(".bookmark__list");
 
 
-// elResult.textContent = films.length
 
 const bookmarks = [];
 
