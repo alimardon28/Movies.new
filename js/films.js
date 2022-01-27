@@ -28,7 +28,7 @@ let films = [
    },
    {
       id: "166428",
-      title: "How to Train Your Dragon: The Hidden World",
+      title: "The Hidden World",
       poster: "https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg",
       overview:
          "As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.",
@@ -46,7 +46,7 @@ let films = [
    },
    {
       id: "495925",
-      title: "Doraemon the Movie: Nobita's Treasure Island",
+      title: "Nobita's Treasure Island",
       poster: "https://image.tmdb.org/t/p/w500/xiLRClQmKSVAbiu6rgCRzNQjcSX.jpg",
       overview:
          "The story is based on Robert Louis Stevenson's Treasure Island novel.",
@@ -235,7 +235,7 @@ let films = [
    },
    {
       id: "338952",
-      title: "Fantastic Beasts: The Crimes of Grindelwald",
+      title: "The Crimes of Grindelwald",
       poster: "https://image.tmdb.org/t/p/w500/fMMrl8fD9gRCFJvsx0SuFwkEOop.jpg",
       overview:
          "Gellert Grindelwald has escaped imprisonment and has begun gathering followers to his cause—elevating wizards above all non-magical beings. The only one capable of putting a stop to him is the wizard he once called his closest friend, Albus Dumbledore. However, Dumbledore will need to seek help from the wizard who had thwarted Grindelwald once before, his former student Newt Scamander, who agrees to help, unaware of the dangers that lie ahead. Lines are drawn as love and loyalty are tested, even among the truest friends and family, in an increasingly divided wizarding world.",
@@ -271,7 +271,7 @@ let films = [
    },
    {
       id: "527729",
-      title: "Asterix: The Secret of the Magic Potion",
+      title: "The Secret of the Magic Potion",
       poster: "https://image.tmdb.org/t/p/w500/wmMq5ypRNJbWpdhC9aPjpdx1MMp.jpg",
       overview:
          "Following a fall during mistletoe picking, Druid Getafix decides that it is time to secure the future of the village. Accompanied by Asterix and Obelix, he undertakes to travel the Gallic world in search of a talented young druid to transmit the Secret of the Magic Potion.",
@@ -361,7 +361,7 @@ let films = [
    },
    {
       id: "120",
-      title: "The Lord of the Rings: The Fellowship of the Ring",
+      title: " The Fellowship of the Ring",
       poster: "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
       overview:
          "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
