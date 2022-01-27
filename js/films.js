@@ -190,7 +190,7 @@ let films = [
    },
    {
       id: "390634",
-      title: "Fate/stay night: Heaven’s Feel II. lost butterfly",
+      title: "Heaven’s Feel II. lost butterfly",
       poster: "https://image.tmdb.org/t/p/w500/nInpnGCjhzVhsASIUAmgM1QIhYM.jpg",
       overview:
          "Theatrical-release adaptation of the visual novel 'Fate/stay night', following the third and final route. (Part 2 of a trilogy.)",

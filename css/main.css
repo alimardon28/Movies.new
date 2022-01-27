@@ -25,6 +25,12 @@ body{
   margin-top: 15px;
 }
 
+.movies__item:hover{
+  box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+  transform: scale(1.05,1.05);
+  transition: 0.8s;
+}
+
 .movies__item {
   min-width: 333px !important;
   margin-bottom: 15px;
@@ -89,6 +95,12 @@ button{
   font-size: 18px;
 }
 
+.bookmark__list .bookmark__item:hover{
+  box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+  transform: scale(1.05,1.05);
+  transition: 0.5s;
+}
+
 .bookmark__list .bookmark__delete{
   margin-left: 20px;
   border-radius: 5px;
@@ -111,5 +123,5 @@ button{
 }
 
 .bookmark__button:hover{
-  background-color: red;
+  background-color: green;
 }
