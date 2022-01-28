@@ -75,7 +75,7 @@ button{
 
 .bookmark__list{
   width:500px;
-  min-height: 100%;
+  max-height: 400px;
   list-style: none;
   color: blue;
   display: flex;
@@ -83,16 +83,18 @@ button{
   justify-content: center;
   flex-direction: column;
   margin: 15px;
+  overflow: auto;
 }
 
 .bookmark__list .bookmark__item{
   margin: 2px;
   background-color: antiquewhite;
-  width:480px;
+  width:430px;
   margin: 5px;
   padding: 8px;
   border-radius: 10px;
   font-size: 18px;
+  margin-top: 20px;
 }
 
 .bookmark__list .bookmark__item:hover{
